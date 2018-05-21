@@ -10,9 +10,9 @@ body {
 }
 
 label {
-  margin-right: 15px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 input {
@@ -25,13 +25,15 @@ input {
 form {
   border-radius: 20px;
   border: 1px solid black;
-  min-width: 350px;
+  min-width: 150px;
   min-height: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: rgb(212, 207, 207);
   box-shadow: 3px 3px 3px gray;
+  padding: 10px;
 }
 
 .usersList {
